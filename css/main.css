@@ -1,0 +1,137 @@
+html,
+body {
+  height: 100%;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  font-size: 0.92em;
+  margin: 0;
+}
+
+.container{
+	width:800px;
+	margin:10px auto;
+	padding:15px;
+}
+
+.container:after {
+  clear: both;
+  content: ".";
+  display: block;
+  height: 0;
+  overflow: hidden;
+  visibility: hidden;
+}
+
+div#root {
+  background: #fff;
+  margin: 0;
+}
+
+
+/* ========= *
+ *  Content  *
+ * ========= */
+
+div#content {
+  margin: auto;
+  margin-bottom: 0;
+  padding: 1em 5px 1.8em 5px;
+  width: 960px;
+}
+
+div#content h1 {
+	margin-top: 0;
+}
+
+/* ================ *
+ *  General styles  *
+ * ================ */
+
+a {
+  color: #0645ad;
+}
+
+a:visited {
+  color: #0b0080;
+}
+
+a img {
+	border: none;
+}
+
+code, p.code {
+  font-family: "Consolas", "Bitstream Vera Sans Mono", "Courier New", Courier,
+  monospace;
+  font-size: 1em;
+}
+
+p.code {
+  background: #eee;
+  border: solid 1px #bbb;
+  border-right: solid 2px #999;
+  border-bottom: solid 2px #999;
+  color: #222;
+  margin: 0.5em auto;
+  overflow: auto;
+  padding: 0.6em 1em;
+  white-space: pre;
+  width: auto;
+}
+
+p.code em {
+  color: #369;
+  font-style: normal;
+  font-weight: bold;
+}
+
+pre.prettyprint {
+  background-color: #eee;
+  border: solid 1px #ddd;
+  border: none;
+  box-shadow: 1px 1px 3px #aaa;
+  font-size: 10pt;
+  margin: 0;
+  overflow: auto;
+  padding: 0.2em;
+}
+
+pre.prettyprint em {
+  background-color: #ffb;
+  font-style: normal;
+}
+
+a.button, a.button:visited {
+  background: #1d64b5;
+  border-color: #3d84d5 #004495 #004495 #3d84d5;
+  border-radius: 0.5em;
+  -moz-border-radius: 0.5em;
+  border-style: solid;
+  border-width: 2px;
+  color: #eee;
+  display: inline-block;
+  font-size: 110%;
+  font-weight: bold;
+  height: 2em;
+  line-height: 2em;
+  padding: 0 1em;
+  text-decoration: none;
+  vertical-align: middle;
+  white-space: nowrap;
+}
+
+a.button:hover {
+  background: #2d74c5;
+  border-color: #4d94e5 #0d54a5 #0d54a5 #4d94e5;
+  border-radius: 0.5em;
+  -moz-border-radius: 0.5em;
+  border-style: solid;
+  border-width: 2px;
+  color: #fff;
+}
+
+a.button img {
+  vertical-align: middle;
+  border: none;
+}

@@ -1,0 +1,134 @@
+#progressbar{
+	margin:0;
+	padding:0;
+	font-size:18px;
+	}	
+li.active{
+	color:red;
+	}
+	
+fieldset{
+	display:none;
+	width: 80%;
+	padding:0px;
+	border-radius: 3px;
+	margin: 0 10%;
+/*	box-shadow: 3px 3px 25px 1px gray; */
+	
+	}
+
+#first{
+    display:block;
+    background-color: #fff;
+	}
+
+.pagedescription{
+	width: auto;
+}
+
+.align-center{
+    text-align: center;
+}
+.next_btn{
+    margin-right: 20%;
+}
+.pre_btn{
+    margin-left: 20%;
+}
+.signupbuttons{
+	
+	min-width:100px;
+}
+
+
+.navbar-default .navbar-nav > .open > a, .navbar-default .navbar-nav > .open > a:hover, .navbar-default .navbar-nav > .open > a:focus {
+    background-color: #cd3700;
+    color: #fff;
+}
+
+.overlimit{color: red;}
+
+
+/* imgarea css */
+
+/*
+ * imgAreaSelect default style
+ */
+
+/*
+ * imgAreaSelect animated border style
+ */
+
+.imgareaselect-border1 {
+	background: url(border-anim-v.gif) repeat-y left top;
+}
+
+.imgareaselect-border2 {
+    background: url(border-anim-h.gif) repeat-x left top;
+}
+
+.imgareaselect-border3 {
+    background: url(border-anim-v.gif) repeat-y right top;
+}
+
+.imgareaselect-border4 {
+    background: url(border-anim-h.gif) repeat-x left bottom;
+}
+
+.imgareaselect-border1, .imgareaselect-border2,
+.imgareaselect-border3, .imgareaselect-border4 {
+    filter: alpha(opacity=50);
+	opacity: 0.5;
+}
+
+.imgareaselect-handle {
+    background-color: #fff;
+	border: solid 1px #000;
+    filter: alpha(opacity=50);
+	opacity: 0.5;
+}
+
+.imgareaselect-outer {
+	background-color: #000;
+    filter: alpha(opacity=50);
+	opacity: 0.5;
+	display: none !important;
+}
+
+.imgareaselect-selection {
+}
+
+#signupform input:focus{
+    border: 1px solid #fed136;
+    box-shadow: 0 1px 1px #fed136 inset;
+}
+
+#signupform select:focus{
+    border: 1px solid #fed136;
+    box-shadow: 0 1px 1px #fed136 inset;
+}
+.marginleft10{
+	margin-left: 10px;
+}
+.multiselect-container{
+	max-height: 150px;
+	overflow-y: auto;
+	overflow-x: hidden;
+}
+.center-horizontal{
+	margin-left: auto;
+	margin-right: auto;
+}
+.linespacer{
+	 margin-bottom: 20px; /* define margin as you see fit */
+}
+.imagesavebuttons{
+	display:none;
+}
+.confirmmodel .modal-dialog {
+    width:30% !important;
+}
+.confirmmodel .modal-header {
+    background-color: black;
+	color: white;
+}

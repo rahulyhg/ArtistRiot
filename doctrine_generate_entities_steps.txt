@@ -1,0 +1,12 @@
+1. Open file "C:\wamp\www\artistriot\application\libraries\doctrine.php"
+
+2. Uncomment the line which has the text "$this->generate_classes();" in the constructor of the class.
+
+3. Save file.
+
+
+5. Navigate to the directory: "C:\wamp\www\artistriot\application".
+
+6. Run command: php doctrine-cli.php orm:generate-entities models
+
+7. Entities will be generated in "C:\wamp\www\artistriot\application\models\Entities" folder.

@@ -1,0 +1,96 @@
+@CHARSET "ISO-8859-1";
+
+.horizontal-line{
+	border-bottom: 1px solid;
+	margin-top:10px;
+	margin-bottom:10px;
+}
+
+.search-icon{
+  
+  left:-6%;
+  z-index:999;
+  cursor: pointer;
+}
+
+#button-holder .glyphicon{
+    top:3px;
+    color:#cd3700;
+}
+.ui-autocomplete {
+    z-index: 100 !important;
+}
+
+.container { margin-top: 20px; }
+.mb20 { margin-bottom: 20px; } 
+
+hgroup { padding-left: 15px; padding-right: 15px; background: white; border-radius: 5px; padding-top: 10px; padding-bottom: 0px;}
+hgroup h1 { font: 500 normal 1.625em "oswald",Arial,Verdana,sans-serif; color: #2a3644; margin-top: 0; line-height: 1.15; }
+hgroup h2.lead { font: normal normal 1.125em "oswald",Arial,Verdana,sans-serif; color: #2a3644; margin: 0; padding-bottom: 10px; }
+.search-result{
+	background: white;
+  	padding-top: 20px;
+  	padding-bottom: 20px;
+  	border-radius: 5px;
+}
+
+.browse-result{
+	background: white;
+  	padding-top: 20px;
+  	padding-bottom: 20px;
+  	border-radius: 5px;
+	margin-right:20px;
+}	
+.search-result .thumbnail { border-radius: 0 !important;   margin-bottom: 0px;  padding: 0px; border: 0px;}
+.search-result:first-child { margin-top: 0 !important; }
+.search-result { margin-top: 20px; }
+.search-result ul { padding-left: 0 !important; list-style: none;  }
+.search-result ul li { font: 400 normal .85em "Quattrocento",Arial,Verdana,sans-serif;  line-height: 30px; }
+.search-result ul li i { padding-right: 5px; }
+.search-result .col-md-7 { position: relative; }
+.search-result h3 { font: 500 normal 1.375em "Quattrocento",Arial,Verdana,sans-serif; margin-top: 0 !important; margin-bottom: 10px !important; }
+.search-result h3 > a, .search-result i { color: #248dc1 !important; }
+.search-result p { font: normal normal 1.125em "Quattrocento",Arial,Verdana,sans-serif; } 
+//.search-result span.plus { position: absolute; right: 0; top: 126px; }
+.search-result span.plus a { background-color: #cd3700; padding: 5px 5px 3px 5px; }
+.search-result span.plus a:hover { background-color: #ff642b; }
+.search-result span.plus a i { color: #000 !important; }
+.search-result span.border { display: block; width: 97%; margin: 0 15px; border-bottom: 1px dotted #ccc; }
+.meta-search .glyphicon {color: #cd3700 !important;}
+
+
+.browse-result .thumbnail { border-radius: 0 !important;   margin-bottom: 0px;  padding: 0px; border: 0px;}
+.browse-result:first-child { margin-top: 0 !important; }
+.browse-result { margin-top: 10px; }
+.browse-result ul { padding-left: 0 !important; list-style: none;  }
+.browse-result ul li { font: 400 normal .85em "Quattrocento",Arial,Verdana,sans-serif;  line-height: 30px; }
+.browse-result ul li i { padding-right: 5px; }
+.browse-result .col-md-7 { position: relative; }
+.browse-result h3 { font: 500 normal 1.375em "Quattrocento",Arial,Verdana,sans-serif; margin-top: 0 !important; margin-bottom: 10px !important; }
+.browse-result h3 > a, .search-result i { color: #248dc1 !important; }
+.browse-result span.plus a { background-color: #cd3700; padding: 5px 5px 3px 5px; }
+.browse-result span.plus a:hover { background-color: #ff642b; }
+.browse-result span.plus a i { color: #000 !important; }
+.browse-result span.border { display: block; width: 97%; margin: 0 15px; border-bottom: 1px dotted #ccc; }
+.meta-search .glyphicon {color: #cd3700 !important;}
+.browse-result span.plus { position: absolute; right: 0; top: 126px; }
+.browse-result p { font: normal normal 1.125em "Quattrocento",Arial,Verdana,sans-serif; } 
+
+#categorydropdown li{padding-bottom: 5px;  padding-top: 5px;padding-left: 15px;border-bottom: 1px solid #F1F5FA;color: black;}
+#categorydropdown li.suggested-categories {padding-bottom: 5px;  padding-top: 5px;  border-bottom: 1px solid #F1F5FA; color:#cd3700 }
+#categorydropdown {-webkit-padding-start: 0px;list-style: none;background: white;float: left;width: 100%;  text-align: left;
+                	border-bottom: 1px solid #F1F5FA;}
+#categorydropdown li.suggested-categories:hover {background:#dfe0e1;cursor:pointer;}}
+
+.search-bar-icon {position: absolute;right: 0;padding: 12px 21px;color: rgb(163, 156, 156);} 
+
+.ui-menu .ui-menu-item{
+    padding-bottom: 5px;  padding-top: 5px;  border-bottom: 1px solid #F1F5FA; color:#cd3700
+}         
+
+.ui-state-hover,
+.ui-widget-content .ui-state-hover,
+.ui-widget-header .ui-state-hover,
+.ui-state-focus,
+.ui-widget-content .ui-state-focus,
+.ui-widget-header .ui-state-focus {background:#dfe0e1 !important;border: none !important;}      	
